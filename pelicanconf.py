@@ -3,13 +3,13 @@
 from __future__ import unicode_literals
 
 AUTHOR = 'Stu  Hilton'
-SITEURL = 'http://localhost:8000'
+SITEURL = ''
 SITENAME = 'Stu Hilton the Software Engineer'
 SITETITLE = AUTHOR
 SITESUBTITLE = 'Software Engineer'
 SITEDESCRIPTION = '%s\'s thoughts' % AUTHOR
-SITELOGO = SITEURL + '/images/profile.png'
-FAVICON = SITEURL + '/images/favicon.ico'
+SITELOGO = '/images/profile.png'
+FAVICON = '/images/favicon.ico'
 
 THEME = "/home/stu/pelican-themes/Flex"
 PATH = 'content'
@@ -20,5 +20,6 @@ SOCIAL = (('linkedin', 'https://www.linkedin.com/in/stuhilton'),
           ('github', 'https://github.com/nullMethod'),
           ('twitter', 'https://twitter.com/stuhil'),)
 
+STATIC_PATHS = ['images']
 
 DEFAULT_PAGINATION = 10
